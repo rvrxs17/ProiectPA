@@ -30,7 +30,6 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
             </nav>
             <div class="content">
                         <div>A.C.S. Arcasii Tarii Barsei
-                        <p>bravo ivascule</p>
                         <br><br>
                         <a href = "http://localhost/ProiectPA/pagini/desprenoi.html"> Despre Noi </a>
                         <br><br>   
