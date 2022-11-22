@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>SIGN UP</title>
+	<title>CONT NOU</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
      <form action="signup-check.php" method="post">
-     	<h2>SIGN UP</h2>
+     	<h2>CONT NOU</h2>
      	<?php if (isset($_GET['error'])) { ?>
      		<p class="error"><?php echo $_GET['error']; ?></p>
      	<?php } ?>
@@ -15,7 +15,7 @@
                <p class="success"><?php echo $_GET['success']; ?></p>
           <?php } ?>
 
-          <label>Name</label>
+          <label>Nume</label>
           <?php if (isset($_GET['name'])) { ?>
                <input type="text" 
                       name="name" 
@@ -24,10 +24,10 @@
           <?php }else{ ?>
                <input type="text" 
                       name="name" 
-                      placeholder="Name"><br>
+                      placeholder="Nume"><br>
           <?php }?>
 
-          <label>User Name</label>
+          <label>Nume Utilizaror</label>
           <?php if (isset($_GET['uname'])) { ?>
                <input type="text" 
                       name="uname" 
@@ -36,22 +36,22 @@
           <?php }else{ ?>
                <input type="text" 
                       name="uname" 
-                      placeholder="User Name"><br>
+                      placeholder="Nume Utilizator"><br>
           <?php }?>
 
 
-     	<label>Password</label>
+     	<label>Parola</label>
      	<input type="password" 
                  name="password" 
-                 placeholder="Password"><br>
+                 placeholder="Parola"><br>
 
-          <label>Re Password</label>
+          <label>Repeta Parola</label>
           <input type="password" 
                  name="re_password" 
-                 placeholder="Re_Password"><br>
+                 placeholder="Repeta Parola"><br>
 
      	<button type="submit">Sign Up</button>
-          <a href="index.php" class="ca">Already have an account?</a>
+          <a href="index.php" class="ca">Ai deja un cont?</a>
      </form>
 </body>
 </html>

@@ -13,7 +13,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 <body>
 <p>bravo ivascule</p>
     <br><br>
-    <a href = "http://localhost/ProiectPA/HTML/desprenoi.html"> Despre Noi </a>
+    <a href = "http://localhost/ProiectPA/pagini/desprenoi.html"> Despre Noi </a>
     <br><br>   
     <a href="logout.php">Logout</a>
 </body>
@@ -21,7 +21,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 
 <?php 
 }else{
-     header("Location: http://localhost/ProiectPA/PHP/logreg/index.php");
+     header("Location: http://localhost/ProiectPA/logreg/index.php");
      exit();
 }
 ?>
