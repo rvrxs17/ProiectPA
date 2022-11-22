@@ -15,7 +15,8 @@ Tipuri de abonamente:
 - Galben - 8 sedinte - echipament inclus
 - Rosu - 8 sedinte - echipament propriu 
 
-Asociati:
+
+*Asociati*:
 Voinea Rares Serban
 Gavrila Roxana Maria
 Ivascu Andrei Iulian
