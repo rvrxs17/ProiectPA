@@ -4,20 +4,20 @@ session_start();
 if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 
  ?>
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Index</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-<p>bravo ivascule</p>
-    <br><br>
-    <a href = "http://localhost/ProiectPA/pagini/desprenoi.html"> Despre Noi </a>
-    <br><br>   
-    <a href="logout.php">Logout</a>
-</body>
-</html>
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Index</title>
+            <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+        <body>
+        <p>bravo ivascule</p>
+            <br><br>
+            <a href = "http://localhost/ProiectPA/pagini/desprenoi.html"> Despre Noi </a>
+            <br><br>   
+            <a href="logout.php">Logout</a>
+        </body>
+        </html>
 
 <?php 
 }else{
