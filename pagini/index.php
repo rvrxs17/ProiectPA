@@ -22,7 +22,8 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
             </label>
             <ul>
                 <li><a class="active" href="#">Acasa</a></li>
-                <li><a href="http://localhost/ProiectPA/pagini/desprenoi.html">Despre noi</a></li>
+                <li><a href = "#">Programari</a></li>
+                <li><a href="http://localhost/ProiectPA/pagini/desprenoi.php">Despre noi</a></li>
                 <li><a href="#">Servicii</a></li>
                 <li><a href="#">Galerie</a></li>
                 <li><a href="logout.php">Logout</a></li>
@@ -30,10 +31,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
             </nav>
             <div class="content">
                         <div>A.C.S. Arcasii Tarii Barsei
-                        <br><br>
-                        <a href = "http://localhost/ProiectPA/pagini/desprenoi.html"> Despre Noi </a>
-                        <br><br>   
-                        <a href="logout.php">Logout</a>
+                            <br> INDEXPHP
                 </div>
             </div>
         </body>
