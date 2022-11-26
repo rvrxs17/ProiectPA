@@ -25,7 +25,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                 <li><a href = "http://localhost/ProiectPA/pagini/programari.php">Programari</a></li>
                 <li><a href="http://localhost/ProiectPA/pagini/desprenoi.php">Despre noi</a></li>
                 <li><a href="#">Servicii</a></li>
-                <li><a href="#">Galerie</a></li>
+                <li><a href="http://localhost/ProiectPA/pagini/galerie.php">Galerie</a></li>
                 <li><a href="logout.php">Logout</a></li>
             </ul>
             </nav>
