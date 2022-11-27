@@ -55,7 +55,7 @@
                 <li><a class= "active" href = "#">Programari</a></li>
                 <li><a href = "http://localhost/ProiectPA/pagini/desprenoi.php">Despre noi</a></li>
                 <li><a href="#">Servicii</a></li>
-                <li><a href="#">Galerie</a></li>
+                <li><a href="http://localhost/ProiectPA/pagini/galerie.php">Galerie</a></li>
                 <li><a href="logout.php">Logout</a></li>
             </ul>
             </nav>
