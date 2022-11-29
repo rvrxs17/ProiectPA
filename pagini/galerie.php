@@ -10,7 +10,8 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="galerie.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/> 
+    <link rel="stylesheet" href="http://localhost/ProiectPA/css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -32,7 +33,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
         </nav>
     </div>
     <div class="content">
- 
+        <br><br><br><br><br><br><br><br>
 
         <div class="wrapper"> 
             <div class="card">
@@ -81,7 +82,6 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                 </div>
             </div>
         </div>
-
 
 
 

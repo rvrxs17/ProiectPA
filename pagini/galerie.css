@@ -99,9 +99,10 @@ input[type="checkbox"]{
   }
 }
 .meniu{
-    display:block;
+    display: block;
 }
 .content{
+    display: inline-block;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -111,24 +112,11 @@ input[type="checkbox"]{
     width: 100%;
     padding: 0 30px;
     color: #1b1b1b;
-    margin-top: 25%;
 }
 .content div{
     font-size: 20px;
     font-weight: 700;
 }
-
-.post{
-    height: 600px;
-    background-color: lightgray;
-}
-
-.post img{
-    height: 120px;
-    width: auto;
-    float: left;
-}
-
 
 
   .wrapper {
@@ -143,7 +131,7 @@ input[type="checkbox"]{
     background: white; 
     border-radius: 0.5rem;
     position: relative;
-    width: 700px; 
+    width: 60%; 
     margin: 1rem;
     transition: 250ms all ease-in-out;
     cursor: pointer;
@@ -180,8 +168,6 @@ input[type="checkbox"]{
   .popular {
     background: #0B437E;
   }
-  
-  
   
 
   .card-body {
