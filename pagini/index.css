@@ -19,6 +19,9 @@ nav .logo{
   color: #fff;
   font-size: 25px;
   font-weight: 600;
+  position: fixed;
+  bottom: 26.2em;
+  right: 42.4em;  
 }
 nav ul{
   display: flex;
@@ -112,4 +115,11 @@ input[type="checkbox"]{
 .content div{
   font-size: 40px;
   font-weight: 700;
+}
+
+.imagine{
+  border-radius: 50%;
+  width: 45px;
+  height: auto;
+  margin-right: 0px;
 }
