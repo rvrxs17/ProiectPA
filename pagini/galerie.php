@@ -33,7 +33,6 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
         </nav>
     </div>
     <div class="content">
-        <br><br><br><br><br><br><br><br>
 
         <div class="wrapper"> 
             <div class="card">
