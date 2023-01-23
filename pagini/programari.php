@@ -54,7 +54,7 @@
                 <li><a href="http://localhost/ProiectPA/pagini/index.php">Acasa</a></li>
                 <li><a class= "active" href = "#">Programari</a></li>
                 <li><a href = "http://localhost/ProiectPA/pagini/desprenoi.php">Despre noi</a></li>
-                <li><a href="#">Servicii</a></li>
+                <li><a href="http://localhost/ProiectPA/pagini/servicii.php">Servicii</a></li>
                 <li><a href="http://localhost/ProiectPA/pagini/galerie.php">Galerie</a></li>
                 <li><a href="logout.php">Logout</a></li>
             </ul>

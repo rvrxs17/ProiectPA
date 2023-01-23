@@ -23,8 +23,8 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
             <ul>
                 <li><a href="http://localhost/ProiectPA/pagini/index.php">Acasa</a></li>
                 <li><a href = "http://localhost/ProiectPA/pagini/programari.php">Programari</a></li>
-                <li><a  class="active" href="http://localhost/ProiectPA/pagini/desprenoi.html">Despre noi</a></li>
-                <li><a href="#">Servicii</a></li>
+                <li><a  class="active" href="http://localhost/ProiectPA/pagini/desprenoi.php">Despre noi</a></li>
+                <li><a href="http://localhost/ProiectPA/pagini/servicii.php">Servicii</a></li>
                 <li><a href="http://localhost/ProiectPA/pagini/galerie.php">Galerie</a></li>
                 <li><a href="logout.php">Logout</a></li>
             </ul>
