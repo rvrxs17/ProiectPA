@@ -18,10 +18,7 @@ nav{
 nav .logo{
   color: #fff;
   font-size: 25px;
-  font-weight: 600;
-  position: fixed;
-  bottom: 26.2em;
-  right: 42.4em;  
+  font-weight: 600; 
 }
 nav ul{
   display: flex;
